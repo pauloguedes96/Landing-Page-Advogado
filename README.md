@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://github.com/pauloguedes96/Landing-Page-Advogado/blob/main/images/Logo.jpg" alt="Churrascometro"/>
+   <img src="https://github.com/pauloguedes96/Landing-Page-Advogado/blob/main/images/Logo.jpg" alt="AdvogadoOnline"/>
 </p>
 
 <p align="center">	
