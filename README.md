@@ -22,7 +22,7 @@
 
 ## :clipboard: Sobre o Projeto
 
-<p align="center">
+<p align="justify">
 Landing page desenvolvida para advogados, com intuito de
 captar clientes e passar mais confiança aos mesmos, apresentando
 todas suas áreas de atuação, localização, meios de contato,
