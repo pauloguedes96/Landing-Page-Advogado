@@ -31,7 +31,7 @@ profissional em todos os dispositivos e botões flutuantes
 para mobile, com funcões de chamada telefônica e whatsApp.
 </p>
 
-## :hammer_and_wrench: Tecnologias utilizadas
+## :hammer_and_wrench: Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
