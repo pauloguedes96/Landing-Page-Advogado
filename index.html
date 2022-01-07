@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Estudo Flexbox e Grid</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="containerSite">
+
+        <div class="header">
+
+            <div class="logoMenu">
+                <img src="./images/Logo.png" alt="" height="108px">
+            </div>
+
+            <nav id="nav">
+
+                <button id="btnMobile">Menu
+                    <span id="hamburguer"></span>
+                </button>
+
+                <ul id="menu">
+
+                    <a class="linkMenu" href="">
+                        <li>Home</li>
+                    </a>
+                    <a class="linkMenu" href="#card">
+                        <li>Áreas de Atuação</li>
+                    </a>
+                    <a class="linkMenu" href="#somos">
+                        <li>Quem Somos</li>
+                    </a>
+                    <a class="linkMenu" href="#local">
+                        <li>localização</li>
+                    </a>
+                    <a class="linkMenu" href="#contato">
+                        <li>Contato</li>
+                    </a>
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <div class="main-1">
+
+            <div class="mainAbout">
+
+                <h1 style="font-family: 'Abril Fatface', cursive; font-weight: 100; font-size: 40px;">
+                    ADVOCACIA HUMANIZADA E <br> TRANSPARENTE</h1>
+
+                <br>
+
+                <div id="linhaMain"></div><br>
+
+                <img src="./icons/court-1.png" alt="" width="65px"><br>
+
+
+                <p style="font-size: 18px">Especialista em direito tributário, com ênfase nas
+                    seguintes áreas: <br> direito empresarial, contratual, família e heranças,
+                    direito<br>matrimonial, bancário e internacional.<br><br>Representação de pessoas físicas e jurídicas em
+                    processos<br>judiciais e administrativos.</p>
+            </div>
+
+
+            <form method="post" action="https://formspree.io/f/mayvnvdn" name="formContactMain" class="formContactMain">
+
+                <input class="form1 inputNome1" type="text" placeholder="Nome" name="Nome" id="inputNome1" required>
+                <input class="form1 inputEmail1" type="email" placeholder="E-mail" name="Email" id="inputEmail1" required>
+                <input class="form1 inputTel1" type="number" placeholder="Telefone" name="Telefone" id="inputTel1" required>
+                <input class="form1 inputAssunto1" type="text" placeholder="Assunto" name="Assunto" id="inputAssunto1" required>
+                <textarea class="form1 inputMsg1" placeholder="Mensagem" name="Mensagem" id="inputMsg1" required></textarea>
+
+                <div class="containerBtn1">
+                    <button type="submit" id="btnForm1">Enviar</button>
+                </div>
+
+                <p id="erroCampos1" style="display: none;">Prencha todos os campos</p>
+                <p id="confirmaEnvio1" style="display: none;">Enviado com sucesso, retornaremos o mais breve possível!
+                </p>
+
+            </form>
+
+
+
+        </div>
+
+        <div class="areaAtuacao">
+            <div class="titleAtuacao">
+                Áreas de Atuação
+                <div id="linha"></div>
+            </div>
+            <div id="card"></div>
+            <div class="cardAreas">
+
+                <div class="area">
+                    <p>Direito Empresarial</p>
+                    <div id="linhaArea"></div>
+                    <div class="ar Empresarial">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+
+                <div class="area">
+                    <p>Direito Contratual</p>
+                    <div id="linhaArea"></div>
+                    <div class="ar Contratual">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+
+                <div class="area">
+                    <p>Família e Heranças</p>
+                    <div id="linhaArea"></div>
+                    <div class="ar Familia">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+
+
+                <div class="area">
+                    <p>Direito Matrimonial</p>
+                    <div id="linhaArea"></div>
+                    <div class="ar Matrimonial">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+
+
+                <div class="area">
+                    <p>Direito Bancário</p>
+                    <div id="linhaArea"></div>
+                    <div class="ar Bancario">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+
+                <div class="area">
+                    <p>Direito Internacional</p>
+                    <div id="linhaArea"></div>
+                    <div class="ar Internacional">
+                        <div class="mask"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="quemSomos">
+
+            <div class="titleQuemSomos">
+                Quem Somos
+                <div id="linha"></div>
+                <div id="somos"></div>
+            </div>
+
+            <div class="video">
+                <div class="containerVideo">
+                    <video id="video" controls src="./videos/video-apresentacao.mp4"> </video>
+
+                    <img src="./images/Logo.png" alt="" width="230px">
+                </div>
+
+            </div>
+
+
+
+            <div class="texto">
+                <div class="containerTexto">
+                    <p>Advogado Online é uma plataforma  com cobertura nacional e ao alcance de todos, sediado em  Belo Horizonte-MG. Conta com reconhecida qualidade técnica, habilitado para uma atuação personalizada em favor dos interesses dos clientes.</p> <br>
+
+                    <p>A plataforma tem como objetivo solucionar de forma clara e objetiva medidas necessárias e adequadas à realidade de cada cliente, bem como alternativas voltadas para a contenção de problemas que eventualmente surjam, inclusive em demandas administrativas ou judiciais.</p> <br>
+
+                    <p>​Somos uma advocacia corporativa especializada. Mesmo que o cliente tenha muitos processos, atuaremos em todos possíveis de maneira assertiva e objetiva, atentos a cada detalhe processual, com determinação e experiência necessária.</p> <br>
+
+                    <p>Apreciamos por valores essenciais à relação entre cliente e advogado, especialmente por manter o cliente inteirado sobre as informações processuais, acompanhando em tempo real, os andamentos pertinentes de sua importância.</p> <br>
+
+                    <p>Prezamos por resolver os problemas jurídicos de nossos clientes, de qualquer lugar do Brasil e do mundo, de maneira remota atendendo a todos que necessitam de acessória jurídica especializada e de confiança.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="localizacao">
+            <div id="local"></div>
+            <iframe class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15004.1038173957!2d-43.94078135139355!3d-19.923311084315202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1641523107285!5m2!1spt-BR!2sbr"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+        <div class="contato">
+
+            <div class="contato-child1">
+                <img id="edificio" src="./images/edificio.png" alt="">
+
+                <img src="./icons/pin-de-localizacao.png" alt="" width="20px"> <br>
+
+                <p>Setor dos Advogados, Qd. 09, Edifício After, Bloco A, <br>
+                    Sala 350, Belo Horizonte-MG, CEP 65224-230</p> <br>
+
+                <label> <strong> Telefone: </strong> <a href="tel:+556130441620">(38) 99841-0769</a></label> <br>
+
+                <label> <strong> WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=5538998410769">(38)
+                        99841-0769</a> </label> <br>
+
+                <label><strong>Email: </strong><a href="mailto:cesarmota94@gmail.com" target="_self"
+                        rel="noopener">cesarmota94@gmail.com</a> </label> <br>
+            </div>
+
+            <div class="contato-child2">
+
+                <h1 style="color: #023373; font-size:22px;">CONTATO</h1>
+
+                <div id="linha"></div> <br>
+
+                <p>Nossa equipe entrará em contato com você. <br>
+                    Responderemos o mais breve possível.</p>
+
+                <br>
+
+                <form method="post" action="https://formspree.io/f/mayvnvdn" class="formContactFooter">
+
+                    <input class="form2 inputNome2" type="text" placeholder="Nome" name="Nome" required>
+                    <input class="form2 inputEmail2" type="email" placeholder="E-mail" name="Email" required>
+                    <input class="form2 inputTel2" type="number" placeholder="Telefone" name="Telefone" required>
+                    <input class="form2 inputAssunto2" type="text" placeholder="Assunto" name="Assunto" required>
+                    <textarea class="form2 inputMsg2" placeholder="Mensagem" name="Mensagem" required></textarea>
+                    <div class="containerBtn2">
+                        <button type="submit" id="btnForm2">Enviar</button>
+                    </div>
+
+                    <p id="erroCampos2" style="display: none; text-align: left;">Prencha todos os campos</p>
+                    <p id="confirmaEnvio2" style="display: none; text-align: left;">Enviado com sucesso, retornaremos o mais breve
+                        possível!</p>
+                        
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer">
+            <p> Desenvolvido por Paulo Guedes - <a href="https://github.com/pauloguedes96" style="color: white;"> GitHub
+                </a> </p>
+        </div>
+
+        <!-- apenas indice menu -->
+        <div id="contato"></div>
+
+    </div>
+
+    <a class="whatsAppFloat" target="_blank" href="https://api.whatsapp.com/send?phone=5538998410769">
+        <i class="fa fa-whatsapp iconeWhats"></i>
+    </a>
+
+    <a class="callFloat" href="tel:+5538998410769">
+        <i class="fa fa-phone iconeCall"></i>
+    </a>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
