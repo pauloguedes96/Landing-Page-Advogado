@@ -16,23 +16,20 @@
 
 <p align="center">
   <a href="#clipboard-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#hammer_and_wrench-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#closed_book-licenca">Licença</a>
 </p>
 
 ## :clipboard: Sobre o Projeto
 
-Sitema para calcular a quantidade de comida e bebida necessária para um churrasco,
-</br>
-com base nas informações seguintes:
-</br>
-Carne - 400gr por pessoa + de 6horas - 650gr
-</br>
-Cerveja - 1200ml por Pessoa + 6 horas - 2000ml
-</br>
-Refrigerante/água - 1000ml por pessoa + 6 horas 1500ml
-</br>
-Crianças valem por 0,5.
+<p align="center">
+Landing page desenvolvida para advogados, com intuito de
+captar clientes e passar mais confiança aos mesmos, apresentando
+todas suas áreas de atuação, localização, meios de contato,
+formulários funcionais, responsividade sendo exibido de maneira
+profissional em todos os dispositivos e botões flutuantes
+para mobile, com funcões de chamada telefônica e whatsApp.
+</p>
 
 ## :hammer_and_wrench: Tecnologias utilizadas
 
