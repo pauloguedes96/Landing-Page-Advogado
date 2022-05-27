@@ -28,10 +28,10 @@ captar clientes e passar mais confiança aos mesmos, apresentando
 todas suas áreas de atuação, localização, meios de contato,
 formulários funcionais, responsividade sendo exibido de maneira
 profissional em todos os dispositivos e botões flutuantes
-para mobile, com funcões de chamada telefônica e whatsApp.
+para mobile, com funções de chamada telefônica e whatsApp.
 </p>
 
-## :hammer_and_wrench: Tecnologias utilizadas
+## :hammer_and_wrench: Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
